@@ -1,0 +1,9 @@
+* {
+    font-family: sans-serif;
+    scroll-snap-type: y mandatory;
+    color: white;
+}
+
+.Main {
+    scroll-snap-align: center;
+}

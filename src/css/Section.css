@@ -1,0 +1,25 @@
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: center;
+}
+
+.one {
+    background-color: black;
+    color: white;
+}
+
+.two {
+    background-color: rgb(21, 21, 21);
+    color: white;
+}
+
+.three {
+    background-color: black;
+}
+
+.four {
+    background-color: black;
+}
