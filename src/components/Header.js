@@ -1,15 +1,13 @@
-import React, { useContext } from 'react'
-import MyContext from '../context/MyContext'
+import React from 'react'
 
-export default function Header() {
-    const context = useContext(MyContext)
+export default function Header({ scrollAbout, scrollProjects, scrollTecnologies }) {
     return (
         <header>
-        <span onClick={context.scrollAbout}>
+        <span onClick={ scrollAbout }>
             Sobre mim
             </span>
-        <span onClick={context.scrollProjects}>Meus projetos</span>
-        <span onClick={context.scrollTecnologies}>Tecnologias</span>
+        <span onClick={ scrollProjects }>Meus projetos</span>
+        <span onClick={ scrollTecnologies }>Tecnologias</span>
     </header>
   )
 }

@@ -6,19 +6,66 @@ section {
     scroll-snap-align: center;
 }
 
+.my-picture {
+    margin-left: 10%;
+    width: 300px;
+    height: 400px;
+    border-radius: 360px;
+}
+
+/* First section */
 .one {
     background-color: black;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
 }
 
+/* Second section */
+
 .two {
-    background-color: rgb(21, 21, 21);
-    color: white;
+    display: grid;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(0, 0, 0);
+    color: rgb(253, 253, 253);
+    border-top: 2px solid rgb(40, 40, 40);
 }
+
+.second-title {
+    margin-left: 5%;
+    text-align:left;
+}
+
+h4 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-indent: 3vh;
+}
+
+.book-image {
+    width: 50vh;
+    height: 50vh;
+    margin-left: 10%;
+}
+
+.text-container {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 50%;
+    margin-right: 5%;
+    background-color: white;
+    color: black;
+    text-align:justify;
+    padding: 10px;
+}
+
+/* Third section */
 
 .three {
     background-color: black;
 }
+
+/* Fourth section */
 
 .four {
     background-color: black;

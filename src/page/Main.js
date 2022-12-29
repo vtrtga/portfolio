@@ -16,11 +16,11 @@ export default function Main() {
     };
 
     const scrollAbout = () => {
-        refAbout.current?.scrollIntoView({behavior: 'smooth'});
+        refAbout.current?.scrollIntoView({ behavior: 'smooth' });
     };
 
     const scrollProjects = () => {
-        refProjects.current?.scrollIntoView({behavior: 'smooth'});
+        refProjects.current?.scrollIntoView({ behavior: 'smooth' });
     };
   return (
     <div className='Main'>
@@ -31,9 +31,9 @@ export default function Main() {
         scrollProjects={ scrollProjects }
         />
         <FirstSection />
-        <SecondSection ref={ refAbout } />
-        <ThirdSection ref={ refProjects }/>
-        <FourthSection ref={ refTecnologies }/>
+        <SecondSection refAbout={ refAbout } />
+        <ThirdSection refProjects={ refProjects }/>
+        <FourthSection refTecnologies={ refTecnologies }/>
         </div>
     </div>
   )

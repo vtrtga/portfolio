@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function FourthSection({ ref }) {
+export default function FourthSection({ refTecnologies }) {
 
   return (
     <section className='four'>
-    <div ref={ ref }>Meus projetos</div>
+    <div ref={ refTecnologies }>Tecnologias</div>
     </section>
   )
 }
