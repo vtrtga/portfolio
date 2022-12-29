@@ -6,9 +6,8 @@ import Main from './page/Main';
 
 function App() {
   return (
-    <Provider>
+
     <Main />
-    </Provider>
   );
 }
 

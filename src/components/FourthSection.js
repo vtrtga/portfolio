@@ -1,12 +1,10 @@
-import React, {useContext} from 'react'
-import MyContext from '../context/MyContext'
+import React from 'react'
 
-export default function FourthSection() {
-    const context = useContext(MyContext);
+export default function FourthSection({ ref }) {
 
   return (
     <section className='four'>
-    <div ref={context.refProjects}>Meus projetos</div>
+    <div ref={ ref }>Meus projetos</div>
     </section>
   )
 }
