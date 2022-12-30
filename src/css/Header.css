@@ -6,8 +6,10 @@ header {
     height: 100px;
     color: white;
     scroll-snap-align: center;
-    background-image: url("../images/dark-concrete.jpg");
+    /* background-image: url("../images/dark-concrete.jpg"); */
+    background-color: black;
     background-size: 100%;
+    border: 3px solid white;
 }
 
 span {
